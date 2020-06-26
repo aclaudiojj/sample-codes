@@ -1,3 +1,5 @@
+<?php
+
 function  calculaBonus($salario) : double {
     if (is_null($salario)) {
         return 0.0;
